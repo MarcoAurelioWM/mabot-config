@@ -69,3 +69,6 @@ python redirect.py br -family:wikitech -lang:en -delete -always -sdtemplate:"{{d
 # Jamaican Patois Wikipedia
 python redirect.py do -family:wikipedia -lang:jam -always
 python redirect.py br -family:wikipedia -lang:jam -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
+# Wikimania 2018
+python redirect.py do -family:wikimania -lang:2018 -always
+python redirect.py br -family:wikimania -lang:2018 -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
