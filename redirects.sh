@@ -20,6 +20,9 @@ python redirect.py br -family:wikinews -lang:es -delete -always
 # Spanish Wikisource
 python redirect.py do -family:wikisource -lang:es -always
 python redirect.py br -family:wikisource -lang:es -delete -always
+# Spanish Wikivoyage
+python redirect.py do -family:wikivoyage -lang:es -always
+python redirect.py br -family:wikivoyage -lang:es -delete -always
 # Aragonese Wikipedia
 python redirect.py do -family:wikipedia -lang:an -always
 python redirect.py br -family:wikipedia -lang:an -delete -always
