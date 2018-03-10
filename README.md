@@ -23,6 +23,7 @@ Summary of projects where my bot does provide services:
 | ext.wikipedia.org | Yes | Yes
 | gl.wikibooks.org | Yes | Yes
 | gl.wikiquote.org | Yes | Yes
+| es.wiktionary.org | No | Yes
 | gl.wiktionary.org | Only [double redirects](https://gl.wiktionary.org/wiki/Special:DoubleRedirects) | Yes
 | jam.wikipedia.org | Yes | Yes
 | olo.wikipedia.org | Yes | Yes
