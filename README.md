@@ -17,18 +17,18 @@ Summary of projects where my bot does provide services:
 | es.wikipedia.org | Yes | Yes
 | es.wikiquote.org | Yes | Yes
 | es.wikisource.org | Yes | Yes
+| es.wikivoyage.org | Pending authorization | Pending authorization
+| es.wiktionary.org | No | Pending authorization
 | eu.wikibooks.org | Yes | Yes
 | eu.wikipedia.org | Yes | Yes
 | eu.wikiquote.org | Yes | No
 | ext.wikipedia.org | Yes | Yes
 | gl.wikibooks.org | Yes | Yes
 | gl.wikiquote.org | Yes | Yes
-| es.wiktionary.org | No | Pending authorization
 | gl.wiktionary.org | Only [double redirects](https://gl.wiktionary.org/wiki/Special:DoubleRedirects) | Yes
 | jam.wikipedia.org | Yes | Yes
+| meta.wikimedia.org | Yes | No
 | olo.wikipedia.org | Yes | Yes
 | species.wikimedia.org | Only [double redirects](https://species.wikimedia.org/wiki/Special:DoubleRedirects) | Yes
 | tcy.wikipedia.org | Yes | Yes
 | wikimania2018.wikimedia.org | Yes | Yes
-| meta.wikimedia.org | Yes | No
-| es.wikivoyage.org | Pending authorization | Pending authorization
