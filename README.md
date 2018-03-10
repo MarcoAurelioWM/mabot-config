@@ -23,7 +23,7 @@ Summary of projects where my bot does provide services:
 | ext.wikipedia.org | Yes | Yes
 | gl.wikibooks.org | Yes | Yes
 | gl.wikiquote.org | Yes | Yes
-| es.wiktionary.org | No | Yes
+| es.wiktionary.org | No | Pending authorization
 | gl.wiktionary.org | Only [double redirects](https://gl.wiktionary.org/wiki/Special:DoubleRedirects) | Yes
 | jam.wikipedia.org | Yes | Yes
 | olo.wikipedia.org | Yes | Yes
@@ -31,3 +31,4 @@ Summary of projects where my bot does provide services:
 | tcy.wikipedia.org | Yes | Yes
 | wikimania2018.wikimedia.org | Yes | Yes
 | meta.wikimedia.org | Yes | No
+| es.wikivoyage.org | Pending authorization | Pending authorization
