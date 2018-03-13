@@ -13,7 +13,7 @@ Summary of projects where my bot does provide services:
 | ast.wiktionary.org | Yes | Yes
 | ca.wikibooks.org | Yes | No
 | es.wikibooks.org | Yes | Yes
-| es.wikinews.org | Yes | No
+| es.wikinews.org | Yes | Pending authorization
 | es.wikipedia.org | Yes | Yes
 | es.wikiquote.org | Yes | Yes
 | es.wikisource.org | Yes | Yes
