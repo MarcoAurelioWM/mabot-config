@@ -18,7 +18,7 @@ Summary of projects where my bot does provide services:
 | es.wikiquote.org | Yes | Yes
 | es.wikisource.org | Yes | Yes
 | es.wikivoyage.org | Pending authorization | Pending authorization
-| es.wiktionary.org | No | Pending authorization
+| es.wiktionary.org | No | Yes
 | eu.wikibooks.org | Yes | Yes
 | eu.wikipedia.org | Yes | Yes
 | eu.wikiquote.org | Yes | No
