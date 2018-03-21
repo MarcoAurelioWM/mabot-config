@@ -21,4 +21,4 @@ python archivebot.py User:MABot/config -family:wiktionary -lang:es
 python archivebot.py User:MABot/config -family:wiktionary -lang:gl
 python archivebot.py User:MABot/config -family:species -lang:species
 python archivebot.py User:MABot/config -family:wikimania -lang:2018
-python archiveboy.py User:MABot/config -family:wikivoyage -lang:es
+python archivebot.py User:MABot/config -family:wikivoyage -lang:es
