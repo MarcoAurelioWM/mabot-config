@@ -33,4 +33,4 @@ Summary of projects where my bot does provide services:
 | tcy.wikipedia.org | Yes | Yes
 | wikimania2018.wikimedia.org | Yes | Yes
 
-In adittion, MABot maintains redirected categories on `es.wikipedia.org` and `meta.wikimedia.org`.
+In adittion, MABot maintains redirected categories on `es.wikipedia.org` and `meta.wikimedia.org`. It also automatically cleans the Sandbox pages for `es.wikiquote.org`, `es.wikisource.org` and `es.wikivoyage.org`.
