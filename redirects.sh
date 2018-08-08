@@ -75,3 +75,5 @@ python redirect.py br -family:wikipedia -lang:jam -delete -always -sdtemplate:"{
 # Wikimania 2018
 python redirect.py do -family:wikimania -lang:2018 -always
 python redirect.py br -family:wikimania -lang:2018 -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
+# Scots Wikipedia (DR-only for now)
+python redirect.py do -family:wikipedia -lang:sco -always
