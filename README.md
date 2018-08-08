@@ -34,7 +34,6 @@ Summary of projects where my bot does provide services:
 | sco.wikipedia.org | Only [double redirects](https://sco.wikipedia.org/wiki/Special:DoubleRedirects) | No
 | species.wikimedia.org | Only [double redirects](https://species.wikimedia.org/wiki/Special:DoubleRedirects) | Yes
 | tcy.wikipedia.org | Yes | Yes
-| wikimania2018.wikimedia.org | Yes | Yes
 
 In adittion, MABot maintains redirected categories on `es.wikipedia.org` and `meta.wikimedia.org`.
 
