@@ -37,4 +37,4 @@ Summary of projects where my bot does provide services:
 
 In adittion, MABot maintains redirected categories on `es.wikipedia.org` and `meta.wikimedia.org`.
 
-It also automatically cleans the Sandbox pages for `es.wikiquote.org`, `es.wikisource.org` and `es.wikivoyage.org`.
+It also automatically cleans the Sandbox pages for `es.wikiquote.org`, `es.wikisource.org`, `es.wikivoyage.org` and `meta.wikimedia.org` (until the bot that took care of such task resumes its work).
