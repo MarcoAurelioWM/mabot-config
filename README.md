@@ -21,6 +21,7 @@ Summary of projects where my bot does provide services:
 | es.wikisource.org | Yes | Yes
 | es.wikivoyage.org | Yes | Yes
 | es.wiktionary.org | No | Yes
+| en.wikibooks.org | No | Yes
 | eu.wikibooks.org | Yes | Yes
 | eu.wikipedia.org | Yes | Yes
 | eu.wikiquote.org | Yes | No
