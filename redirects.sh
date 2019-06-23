@@ -67,8 +67,8 @@ python redirect.py br -family:wikibooks -lang:gl -delete -always
 python redirect.py do -family:wiktionary -lang:ast -always
 python redirect.py br -family:wiktionary -lang:ast -delete -always
 # Wikitech (temporary disabled 2019-03-19 until further notice)
-# python redirect.py do -family:wikitech -lang:en -always
-# python redirect.py br -family:wikitech -lang:en -delete -always -sdtemplate:"{{delete|reason=Bot: broken redirect}}"
+python redirect.py do -family:wikitech -lang:en -always
+python redirect.py br -family:wikitech -lang:en -delete -always -sdtemplate:"{{delete|reason=Bot: broken redirect}}"
 # Jamaican Patois Wikipedia
 python redirect.py do -family:wikipedia -lang:jam -always
 python redirect.py br -family:wikipedia -lang:jam -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
