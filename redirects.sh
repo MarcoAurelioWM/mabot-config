@@ -74,3 +74,6 @@ python3 redirect.py do -family:wikipedia -lang:jam -always
 python3 redirect.py br -family:wikipedia -lang:jam -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
 # Scots Wikipedia (DR-only for now)
 python3 redirect.py do -family:wikipedia -lang:sco -always
+# Neapolitan Wikisource
+python3 redirect.py do -family:wikisource -lang:nap -always
+python3 redirect.py br -family:wikisource -lang:nap -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
