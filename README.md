@@ -31,6 +31,7 @@ Summary of projects where my bot does provide services:
 | gl.wiktionary.org | Only [double redirects](https://gl.wiktionary.org/wiki/Special:DoubleRedirects) | Yes
 | jam.wikipedia.org | Yes | Yes
 | meta.wikimedia.org | Yes | No
+| nap.wikisource.org | Yes | No
 | olo.wikipedia.org | Yes | Yes
 | sco.wikipedia.org | Only [double redirects](https://sco.wikipedia.org/wiki/Special:DoubleRedirects) | Yes
 | species.wikimedia.org | Only [double redirects](https://species.wikimedia.org/wiki/Special:DoubleRedirects) | Yes
