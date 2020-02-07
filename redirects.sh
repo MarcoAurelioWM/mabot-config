@@ -13,7 +13,7 @@ python3 redirect.py do -family:wikibooks -lang:es -always
 python3 redirect.py br -family:wikibooks -lang:es -delete -always
 # Spanish Wikiquote
 python3 redirect.py do -family:wikiquote -lang:es -always
-# Temporarily suspended: python3 redirect.py br -family:wikiquote -lang:es -delete -sdtemplate:"{{destruir|1=Bot: redirección rota|bot=sí}}" -always
+python3 redirect.py br -family:wikiquote -lang:es -delete -sdtemplate:"{{destruir|1=Bot: redirección rota|bot=sí}}" -always
 # Spanish Wikinews
 python3 redirect.py do -family:wikinews -lang:es -always
 python3 redirect.py br -family:wikinews -lang:es -delete -always
