@@ -66,9 +66,6 @@ python3 redirect.py br -family:wikibooks -lang:gl -delete -always
 # Asturian Wiktionary
 python3 redirect.py do -family:wiktionary -lang:ast -always
 python3 redirect.py br -family:wiktionary -lang:ast -delete -always
-# Wikitech
-python3 redirect.py do -family:wikitech -lang:en -always
-python3 redirect.py br -family:wikitech -lang:en -delete -always -sdtemplate:"{{delete|reason=Bot: broken redirect}}"
 # Jamaican Patois Wikipedia
 python3 redirect.py do -family:wikipedia -lang:jam -always
 python3 redirect.py br -family:wikipedia -lang:jam -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
