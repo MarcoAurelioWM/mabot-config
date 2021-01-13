@@ -1,13 +1,13 @@
 #!/bin/bash
 cd /data/project/mabot/scripts
 # Meta-Wiki
-python3 redirect.py do -family:meta -lang:meta -always
-python3 redirect.py br -family:meta -lang:meta -delete -always
+python3 redirect.py do -namespace:not:2,3 -family:meta -lang:meta -always
+python3 redirect.py br -namespace:not:2,3 -family:meta -lang:meta -delete -always
 # Wikispecies
 python3 redirect.py do -family:species -lang:species -always
 # Spanish Wikipedia
-python3 redirect.py do -family:wikipedia -lang:es -always
-python3 redirect.py br -family:wikipedia -sdtemplate:"{{RobotDestruir|1=|2=R1}}" -lang:es -delete -always
+python3 redirect.py do -namespace:not:2,3 -family:wikipedia -lang:es -always
+python3 redirect.py br -namespace:not:2,3 -family:wikipedia -sdtemplate:"{{RobotDestruir|1=|2=R1}}" -lang:es -delete -always
 # Spanish Wikibooks
 python3 redirect.py do -family:wikibooks -lang:es -always
 python3 redirect.py br -family:wikibooks -lang:es -delete -always
