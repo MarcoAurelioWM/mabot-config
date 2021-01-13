@@ -31,9 +31,6 @@ python3 redirect.py do -family:wiktionary -lang:an -always
 python3 redirect.py br -family:wiktionary -lang:an -delete -always
 # Asturian Wikipedia (DR only)
 python3 redirect.py do -family:wikipedia -lang:ast -always
-# tcy.wikipedia
-python3 redirect.py do -family:wikipedia -lang:tcy -always
-python3 redirect.py br -family:wikipedia -lang:tcy -delete -always
 # Basque Wikipedia
 python3 redirect.py do -family:wikipedia -lang:eu -always
 python3 redirect.py br -family:wikipedia -lang:eu -delete -always
@@ -45,9 +42,6 @@ python3 redirect.py do -family:wiktionary -lang:gl -always
 # Extremaduran Wikipedia
 python3 redirect.py do -family:wikipedia -lang:ext -always
 python3 redirect.py br -family:wikipedia -lang:ext -delete -always
-# Catalan Wikibooks
-python3 redirect.py do -family:wikibooks -lang:ca -always
-python3 redirect.py br -family:wikibooks -lang:ca -delete -always
 # Old-English Wikipedia
 python3 redirect.py do -family:wikipedia -lang:ang -always
 python3 redirect.py br -family:wikipedia -lang:ang -delete -always
@@ -71,6 +65,3 @@ python3 redirect.py do -family:wikipedia -lang:jam -always
 python3 redirect.py br -family:wikipedia -lang:jam -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
 # Scots Wikipedia (DR-only for now)
 python3 redirect.py do -family:wikipedia -lang:sco -always
-# Neapolitan Wikisource
-python3 redirect.py do -family:wikisource -lang:nap -always
-python3 redirect.py br -family:wikisource -lang:nap -delete -always -sdtemplate:"{{delete|1=Bot: broken redirect}}"
