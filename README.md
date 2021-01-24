@@ -11,7 +11,6 @@ This repository host the job commands that [MABot](https://meta.wikimedia.org/wi
 | ang.wikipedia.org | Yes | Yes
 | ast.wikipedia.org | Only [double redirects](https://ast.wikipedia.org/wiki/Special:DoubleRedirects) | Yes
 | ast.wiktionary.org | Yes | Yes
-| ca.wikibooks.org | Yes | No
 | es.wikibooks.org | Yes | Yes
 | es.wikinews.org | Yes | Yes
 | es.wikipedia.org | Yes | Yes
@@ -27,13 +26,9 @@ This repository host the job commands that [MABot](https://meta.wikimedia.org/wi
 | gl.wikibooks.org | Yes | Yes
 | gl.wikiquote.org | Yes | Yes
 | gl.wiktionary.org | Only [double redirects](https://gl.wiktionary.org/wiki/Special:DoubleRedirects) | Yes
-| jam.wikipedia.org | Yes | Yes
 | meta.wikimedia.org | Yes | No
-| nap.wikisource.org | Yes | No
-| olo.wikipedia.org | Yes | Yes
 | sco.wikipedia.org | Only [double redirects](https://sco.wikipedia.org/wiki/Special:DoubleRedirects) | Yes
 | species.wikimedia.org | Only [double redirects](https://species.wikimedia.org/wiki/Special:DoubleRedirects) | Yes
-| tcy.wikipedia.org | Yes | Yes
 
 In adittion, MABot maintains redirected categories on `es.wikipedia.org`, `es.wikibooks.org`, `es.wikisource.org` and `meta.wikimedia.org`.
 
