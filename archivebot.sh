@@ -10,10 +10,7 @@ python3 archivebot.py User:MABot/config -family:wikipedia -lang:ang
 python3 archivebot.py User:MABot/config -family:wikipedia -lang:es
 python3 archivebot.py User:MABot/config -family:wikipedia -lang:eu
 python3 archivebot.py User:MABot/config -family:wikipedia -lang:ext
-python3 archivebot.py User:MABot/config -family:wikipedia -lang:jam
-python3 archivebot.py User:MABot/config -family:wikipedia -lang:olo
 python3 archivebot.py User:MABot/config -family:wikipedia -lang:sco
-python3 archivebot.py User:MABot/config -family:wikipedia -lang:tcy
 python3 archivebot.py User:MABot/config -family:wikiquote -lang:en
 python3 archivebot.py User:MABot/config -family:wikiquote -lang:es
 python3 archivebot.py User:MABot/config -family:wikiquote -lang:eu
