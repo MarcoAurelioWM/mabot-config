@@ -32,7 +32,7 @@ This repository host the job commands that [MABot](https://meta.wikimedia.org/wi
 
 In adittion, MABot maintains redirected categories on `es.wikipedia.org`, `es.wikibooks.org`, `es.wikisource.org` and `meta.wikimedia.org`.
 
-It also automatically cleans the Sandbox pages for `es.wikibooks.org`, `es.wikiquote.org`, `es.wikisource.org`, `es.wikivoyage.org`, `es.wiktionary.org` & `meta.wikimedia.org`.
+It also automatically cleans the Sandbox pages for `es.wikibooks.org`, `es.wikiquote.org`, `es.wikisource.org`, `es.wikivoyage.org` and `es.wiktionary.org`.
 
 ## Information for wikitech.wikimedia.org
 MABot operates in a different schedule in https://wikitech.wikimedia.org due to its low level of traffic and edits. The bot will archive talk pages just **once a week** every Friday, and will attempt to fix (or tag for deletion) double or broken redirects just **twice per month** (on 1st and 15th of each month). This is done to save Toolforge resources by avoiding "empty runs" of the bot.
