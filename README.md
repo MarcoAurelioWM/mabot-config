@@ -22,7 +22,6 @@ This repository host the job commands of [MABot](https://meta.wikimedia.org/wiki
 | eu.wikibooks.org | Yes | Yes
 | eu.wikipedia.org | Yes | Yes
 | eu.wikiquote.org | Yes | No
-| ext.wikipedia.org | Yes | Yes
 | gl.wikibooks.org | Yes | Yes
 | gl.wikiquote.org | Yes | Yes
 | gl.wiktionary.org | Only [double redirects](https://gl.wiktionary.org/wiki/Special:DoubleRedirects) | Yes
