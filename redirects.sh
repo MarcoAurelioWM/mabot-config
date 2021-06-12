@@ -35,10 +35,7 @@ python3 redirect.py do -family:wikipedia -lang:ast -always
 python3 redirect.py do -family:wikipedia -lang:eu -always
 python3 redirect.py br -family:wikipedia -lang:eu -delete -always
 # Galician Wiktionary (DR for now)
-python3 redirect.py do -family:wiktionary -lang:gl -always
-# Extremaduran Wikipedia
-python3 redirect.py do -family:wikipedia -lang:ext -always
-python3 redirect.py br -family:wikipedia -lang:ext -delete -always
+python3 redirect.py do -family:wiktionary -lang:gl -always  
 # Old-English Wikipedia
 python3 redirect.py do -family:wikipedia -lang:ang -always
 python3 redirect.py br -family:wikipedia -lang:ang -delete -always
