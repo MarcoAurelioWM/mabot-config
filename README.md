@@ -30,7 +30,7 @@ This repository host the job commands of [MABot](https://meta.wikimedia.org/wiki
 | species.wikimedia.org | Only [double redirects](https://species.wikimedia.org/wiki/Special:DoubleRedirects) | Yes
 
 ## Additional tasks
-MABot maintains redirected categories on `es.wikipedia.org`, `es.wikibooks.org`, `es.wikisource.org` and `meta.wikimedia.org`. An on-wiki report is generated afterwards for each run. It also automatically cleans the Sandbox pages for `es.wikibooks.org`, `es.wikiquote.org`, `es.wikisource.org`, `es.wikivoyage.org` and `es.wiktionary.org` using a whitelist to run only on the specified pages.
+MABot maintains redirected categories on `es.wikipedia.org`, `es.wikibooks.org`, `es.wikisource.org` and `meta.wikimedia.org`. An on-wiki report is generated afterwards for each run. It also automatically cleans the Sandbox pages for `es.wikibooks.org`, `es.wikiquote.org`, `es.wikisource.org`, `es.wikivoyage.org`, `es.wiktionary.org` and `meta.wikimedia.org` using a whitelist to run only on the specified pages.
 
 ## Different work schedule for Wikitech
 MABot is authorized to run on [Wikitech](https://wikitech.wikimedia.org), however due to its low level of traffic and edits it uses a different work schedule: the bot will archive talk pages just **once a week** every Friday, and will attempt to fix (or tag for deletion) double or broken redirects just **twice per month** (on the 1st and 15th days of each month). This is done to save shared Toolforge resources by avoiding as much "empty runs" of the bot as possible.
