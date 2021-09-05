@@ -11,6 +11,7 @@ This repository host the job commands of [MABot](https://meta.wikimedia.org/wiki
 | ang.wikipedia.org | Yes | Yes
 | ast.wikipedia.org | Only [double redirects](https://ast.wikipedia.org/wiki/Special:DoubleRedirects) | Yes
 | ast.wiktionary.org | Yes | Yes
+| en.wikibooks.org | No | Yes
 | es.wikibooks.org | Yes | Yes | Redirected categories, clear sandbox
 | es.wikinews.org | Yes | Yes
 | es.wikipedia.org | Yes | Yes | Redirected categories
@@ -18,7 +19,6 @@ This repository host the job commands of [MABot](https://meta.wikimedia.org/wiki
 | es.wikisource.org | Yes | Yes | Redirected categories, clear sandbox
 | es.wikivoyage.org | Yes | Yes | Clear sandbox
 | es.wiktionary.org | No | Yes | Clear sandbox
-| en.wikibooks.org | No | Yes
 | eu.wikibooks.org | Yes | Yes
 | eu.wikipedia.org | Yes | Yes
 | eu.wikiquote.org | Yes | No
@@ -28,6 +28,7 @@ This repository host the job commands of [MABot](https://meta.wikimedia.org/wiki
 | meta.wikimedia.org | Yes | No | Redirected categories
 | sco.wikipedia.org | Only [double redirects](https://sco.wikipedia.org/wiki/Special:DoubleRedirects) | Yes
 | species.wikimedia.org | Only [double redirects](https://species.wikimedia.org/wiki/Special:DoubleRedirects) | Yes
+| tcy.wikipedia.org | No | Yes
 
 ## Additional tasks
 MABot maintains redirected categories on `es.wikipedia.org`, `es.wikibooks.org`, `es.wikisource.org` and `meta.wikimedia.org`. An on-wiki report is generated afterwards for each run. It also automatically cleans the Sandbox pages for `es.wikibooks.org`, `es.wikiquote.org`, `es.wikisource.org`, `es.wikivoyage.org`, `es.wiktionary.org` and `meta.wikimedia.org` using a whitelist to run only on the specified pages.
