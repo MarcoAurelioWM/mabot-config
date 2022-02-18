@@ -1,9 +1,9 @@
-0 */8 * * * jsub -once -N clean_sandbox -j y /data/project/mabot/.pywikibot/jobs/clean-sandbox.sh >/dev/null 2>&1
-00 04 1,15 * * jsub -once -N redirects-wikitech -j y /data/project/mabot/.pywikibot/jobs/redirects-wikitech.sh >/dev/null 2>&1
-00 07 * * * jsub -once -N archivebot -j y /data/project/mabot/.pywikibot/jobs/archivebot.sh >/dev/null 2>&1
-00 08 * * * jsub -once -N redirects -j y /data/project/mabot/.pywikibot/jobs/redirects.sh >/dev/null 2>&1
-00 22 1 * * jsub -once -N category_redirect_eswiki -j y /data/project/mabot/.pywikibot/jobs/catredir-eswiki.sh >/dev/null 2>&1
-00 22 1 * * jsub -once -N category_redirect_meta -j y /data/project/mabot/.pywikibot/jobs/catredir-meta.sh >/dev/null 2>&1
-00 23 1 6,12 * jsub -once -N category_redirect_eswikibooks -j y /data/project/mabot/.pywikibot/jobs/catredir-eswb.sh >/dev/null 2>&1
-00 23 1 6,12 * jsub -once -N category_redirect_eswikisource -j y /data/project/mabot/.pywikibot/jobs/catredir-esws.sh >/dev/null 2>&1
-30 03 * * 5 jsub -once -N archivebot-wikitech -j y /data/project/mabot/.pywikibot/jobs/archivebot-wikitech.sh >/dev/null 2>&1
+0 */8 * * * jsub -once -N clean_sandbox -j y -release buster /data/project/mabot/.pywikibot/jobs/clean-sandbox.sh >/dev/null 2>&1
+00 04 1,15 * * jsub -once -N redirects-wikitech -j y -release buster /data/project/mabot/.pywikibot/jobs/redirects-wikitech.sh >/dev/null 2>&1
+00 07 * * * jsub -once -N archivebot -j y -release buster /data/project/mabot/.pywikibot/jobs/archivebot.sh >/dev/null 2>&1
+00 08 * * * jsub -once -N redirects -j y -release buster /data/project/mabot/.pywikibot/jobs/redirects.sh >/dev/null 2>&1
+00 22 1 * * jsub -once -N category_redirect_eswiki -j y -release buster /data/project/mabot/.pywikibot/jobs/catredir-eswiki.sh >/dev/null 2>&1
+00 22 1 * * jsub -once -N category_redirect_meta -j y -release buster /data/project/mabot/.pywikibot/jobs/catredir-meta.sh >/dev/null 2>&1
+00 23 1 6,12 * jsub -once -N category_redirect_eswikibooks -j y -release buster /data/project/mabot/.pywikibot/jobs/catredir-eswb.sh >/dev/null 2>&1
+00 23 1 6,12 * jsub -once -N category_redirect_eswikisource -j y -release buster /data/project/mabot/.pywikibot/jobs/catredir-esws.sh >/dev/null 2>&1
+30 03 * * 5 jsub -once -N archivebot-wikitech -j y -release buster /data/project/mabot/.pywikibot/jobs/archivebot-wikitech.sh >/dev/null 2>&1
