@@ -20,6 +20,9 @@ python3 redirect.py br -family:wikinews -lang:es -delete -always
 # Spanish Wikisource
 python3 redirect.py do -family:wikisource -lang:es -always
 python3 redirect.py br -family:wikisource -lang:es -delete -always
+# Spanish Wikiversity
+python3 redirect.py do -namespace:not:2,3 -family:wikiversity -lang:es -always
+python3 redirect.py br -namespace:not:2,3 -family:wikiversity -lang:es -delete -sdtemplate:"{{destruir|1=Bot: redirección rota}}" -always
 # Spanish Wikivoyage
 python3 redirect.py do -family:wikivoyage -lang:es -always
 python3 redirect.py br -family:wikivoyage -lang:es -delete -always
