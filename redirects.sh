@@ -46,8 +46,8 @@ python3 redirect.py br -family:wikipedia -lang:ang -delete -always
 python3 redirect.py do -family:wikibooks -lang:eu -always
 python3 redirect.py br -family:wikibooks -lang:eu -delete -always
 # Basque Wikiquote
-python3 redirect.py do -family:wikiquote -lang:eu -always
-python3 redirect.py br -family:wikiquote -lang:eu -delete -always
+python3 redirect.py do -namespace:not:2,3 -family:wikiquote -lang:eu -always
+python3 redirect.py br -namespace:not:2,3 -family:wikiquote -lang:eu -delete -always
 # Galician Wikiquote
 python3 redirect.py do -family:wikiquote -lang:gl -always
 python3 redirect.py br -family:wikiquote -lang:gl -delete -always
