@@ -27,11 +27,11 @@ python3 redirect.py br -namespace:not:2,3 -family:wikiversity -lang:es -delete -
 python3 redirect.py do -family:wikivoyage -lang:es -always
 python3 redirect.py br -family:wikivoyage -lang:es -delete -always
 # Aragonese Wikipedia
-python3 redirect.py do -family:wikipedia -lang:an -always
-python3 redirect.py br -family:wikipedia -lang:an -delete -always
+python3 redirect.py do -namespace:not:2,3 -family:wikipedia -lang:an -always
+python3 redirect.py br -namespace:not:2,3 -family:wikipedia -lang:an -delete -always
 # Aragonese Wiktionary
-python3 redirect.py do -family:wiktionary -lang:an -always
-python3 redirect.py br -family:wiktionary -lang:an -delete -always
+python3 redirect.py do -namespace:not:2,3 -family:wiktionary -lang:an -always
+python3 redirect.py br -namespace:not:2,3 -family:wiktionary -lang:an -delete -always
 # Asturian Wikipedia (DR only)
 python3 redirect.py do -family:wikipedia -lang:ast -always
 # Basque Wikipedia
