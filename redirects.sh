@@ -9,7 +9,6 @@ python3 redirect.py do -family:species -lang:species -always
 python3 redirect.py do -namespace:not:2,3 -family:wikipedia -lang:es -always
 python3 redirect.py br -namespace:not:2,3 -family:wikipedia -sdtemplate:"{{RobotDestruir|1=|2=R1}}" -lang:es -delete -always
 # Spanish Wikibooks
-python3 redirect.py do -family:wikibooks -lang:es -always
 python3 redirect.py br -family:wikibooks -lang:es -delete -always
 # Spanish Wikiquote
 python3 redirect.py do -family:wikiquote -lang:es -always
