@@ -12,7 +12,7 @@ This repository host the job commands of [MABot](https://meta.wikimedia.org/wiki
 | ast.wikipedia.org | Only [double redirects](https://ast.wikipedia.org/wiki/Special:DoubleRedirects) | Yes
 | ast.wiktionary.org | Yes | Yes
 | en.wikibooks.org | No | Yes
-| es.wikibooks.org | Yes | Yes | Redirected categories, clear sandbox
+| es.wikibooks.org |  Only [broken redirects](https://es.wikibooks.org/wiki/Special:BrokenRedirects) | Yes | Redirected categories, clear sandbox
 | es.wikinews.org | Yes | Yes
 | es.wikipedia.org | Yes | Yes | Redirected categories
 | es.wikiquote.org | Yes | Yes | Clear sandbox
