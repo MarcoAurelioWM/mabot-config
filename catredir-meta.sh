@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /data/project/mabot/scripts
-python3 category_redirect.py -family:meta -lang:meta
+$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py category_redirect -family:meta -lang:meta
