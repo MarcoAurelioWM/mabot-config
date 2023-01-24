@@ -1,0 +1,39 @@
+# MABot task scheduler for the toolforge-jobs framework
+# See <https://wikitech.wikimedia.org/wiki/Help:Toolforge/Jobs_framework>
+---
+- name: archivebot
+  image: python3.9
+  command: ./config/archivebot.sh
+  filelog-stdout: worklogs/archivebot.log
+  filelog-stderr: worklogs/archivebot.log
+  schedule: "15 06 * * *"
+- name: archivebot-wikitech
+  image: python3.9
+  command: ./config/archivebot-wikitech.sh
+  filelog-stderr: worklogs/archivebot-wikitech.log
+  filelog-stdout: worklogs/archivebot-wikitech.log
+  schedule: "30 06 * * 5"
+- name: clean-pwb-cache
+  image: python3.9
+  command: ./config/clean-pwb-cache.sh
+  filelog-stderr: worklogs/clean-pwb-cache.log
+  filelog-stdout: worklogs/clean-pwb-cache.log
+  schedule: "55 23 * * *"
+- name: clean-sandbox
+  image: python3.9
+  command: ./config/clean-sandbox.sh
+  filelog-stderr: worklogs/clean-sandbox.log
+  filelog-stdout: worklogs/clean-sandbox.log
+  schedule: "1 */2 * * *"
+- name: redirectbot
+  image: python3.9
+  command: ./config/redirects.sh
+  filelog-stderr: worklogs/redirectbot.log
+  filelog-stdout: worklogs/redirectbot.log
+  schedule: "30 07 * * *"
+- name: redirectbot-wikitech
+  image: python3.9
+  command: ./config/redirects-wikitech.sh
+  filelog-stderr: worklogs/redirectbot-wikitech.log
+  filelog-stdout: worklogs/redirectbot-wikitech.log
+  schedule: "15 08 1,15 * *"
