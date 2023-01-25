@@ -1,8 +1,7 @@
 #!/bin/bash
 
-array=("$HOME/pwbvenv/bin/python3" "$HOME/pywikibot-core/pwb.py" "archivebot User:MABot/config")
+array=("$HOME/pwbvenv/bin/python3" "$HOME/pywikibot-core/pwb.py" "archivebot" "User:MABot/config")
 echo -e "Running archivebot module for wikitech.wikimedia.org on $(date)."
 printf '%60s\n' | tr ' ' -
 ${array[*]} -family:wikitech -lang:en
 echo -e "Script finished at $(date)."
-printf '%60s\n' | tr ' ' -
