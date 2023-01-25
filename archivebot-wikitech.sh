@@ -4,5 +4,5 @@ pwb="$HOME/pywikibot-core/pwb.py"
 echo -e "Running archivebot module for wikitech.wikimedia.org on $(date)."
 printf '%20s\n' | tr ' ' -
 $py3 $pwb archivebot User:MABot/config -family:wikitech -lang:en
-echo -e "Finished at $(date)."
+echo -e "Script finished at $(date)."
 printf '%20s\n' | tr ' ' -
