@@ -1,22 +1,31 @@
 #!/bin/bash
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:species -lang:species
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikibooks -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikibooks -lang:eu
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikibooks -lang:gl
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikinews -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikipedia -lang:an
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikipedia -lang:ang
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikipedia -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikipedia -lang:eu
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikipedia -lang:sco
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikipedia -lang:tcy
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikiquote -lang:en
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikiquote -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikiquote -lang:eu
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikiquote -lang:gl
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikisource -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wikivoyage -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wiktionary -lang:an
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wiktionary -lang:ast
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wiktionary -lang:es
-$HOME/pwbvenv/bin/python3 $HOME/pywikibot-core/pwb.py archivebot User:MABot/config -family:wiktionary -lang:gl
+
+set -v
+py3="$HOME/pwbvenv/bin/python3"
+pwb="$HOME/pywikibot-core/pwb.py"
+static="archivebot User:MABot/config"
+echo -e "Starting archiver bot module at $(date)"
+printf '%20s\n' | tr ' ' -
+$py3 $pwb $static -family:species -lang:en
+$py3 $pwb $static -family:wikibooks -lang:es
+$py3 $pwb $static -family:wikibooks -lang:eu
+$py3 $pwb $static -family:wikibooks -lang:gl
+$py3 $pwb $static -family:wikinews -lang:es
+$py3 $pwb $static -family:wikipedia -lang:an
+$py3 $pwb $static -family:wikipedia -lang:ang
+$py3 $pwb $static -family:wikipedia -lang:es
+$py3 $pwb $static -family:wikipedia -lang:eu
+$py3 $pwb $static -family:wikipedia -lang:sco
+$py3 $pwb $static -family:wikipedia -lang:tcy
+$py3 $pwb $static -family:wikiquote -lang:en
+$py3 $pwb $static -family:wikiquote -lang:es
+$py3 $pwb $static -family:wikiquote -lang:eu
+$py3 $pwb $static -family:wikiquote -lang:gl
+$py3 $pwb $static -family:wikisource -lang:es
+$py3 $pwb $static -family:wikivoyage -lang:es
+$py3 $pwb $static -family:wiktionary -lang:an
+$py3 $pwb $static -family:wiktionary -lang:ast
+$py3 $pwb $static -family:wiktionary -lang:es
+$py3 $pwb $static -family:wiktionary -lang:gl
+echo -e "Archiver bot module finished at $(date)"
+printf '%20s\n' | tr ' ' -
