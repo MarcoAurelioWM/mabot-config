@@ -6,7 +6,7 @@ printf '%60s\n' | tr ' ' +
 echo -e "Taking care of DoubleRedirects"
 printf '%20s\n' | tr ' ' -
 ${array[*]} do -family:wikitech -lang:en -always
-echo -e "Taking care of BrokenRedirects"
+echo -e "\nTaking care of BrokenRedirects"
 printf '%20s\n' | tr ' ' -
 ${array[*]} br -family:wikitech -lang:en -delete -always -sdtemplate:"{{delete|reason=Bot: broken redirect}}"
-echo -e "Script finished at $(date)."
+echo -e "\nScript finished at $(date)."
