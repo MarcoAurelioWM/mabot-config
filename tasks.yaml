@@ -29,6 +29,13 @@
   filelog-stdout: worklogs/clean-sandbox.log
   schedule: "1 */2 * * *"
   emails: onfailure
+- name: cr-eswiki
+  image: python3.9
+  command: ./config/catredir-eswiki.sh
+  filelog-stderr: worklogs/cr-eswiki.log
+  filelog-stdout: worklogs/cr-eswiki.log
+  schedule: "30 5 1,15 * *"
+  emails: onfailure
 - name: redirectbot
   image: python3.9
   command: ./config/redirects.sh
