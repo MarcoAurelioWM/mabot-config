@@ -15,11 +15,11 @@
   filelog-stdout: worklogs/archivebot-wikitech.log
   schedule: "30 06 * * 5"
   emails: onfailure
-- name: clean-pwb-cache
+- name: delete-pwb-cache
   image: python3.9
-  command: ./config/clean-pwb-cache.sh
-  filelog-stderr: worklogs/clean-pwb-cache.log
-  filelog-stdout: worklogs/clean-pwb-cache.log
+  command: ./config/delete-pwb-cache.sh
+  filelog-stderr: worklogs/delete-pwb-cache.log
+  filelog-stdout: worklogs/delete-pwb-cache.log
   schedule: "55 23 * * *"
   emails: onfailure
 - name: clean-sandbox
