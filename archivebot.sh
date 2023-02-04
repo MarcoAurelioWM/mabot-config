@@ -55,4 +55,4 @@ ${array[*]} -family:wiktionary -lang:es
 ${array[*]} -family:wiktionary -lang:gl
 printf '%40s\n' | tr ' ' -
 echo -e "Archiver bot module finished at $(date)"
-printf '%20s\n' | tr ' ' -
+printf '%40s\n' | tr ' ' -
