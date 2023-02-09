@@ -52,7 +52,7 @@
   emails: onfailure
 - name: tcywiki
   image: python3.9
-  command: ./config/tcywiki.sh
+  command: ./special/tcywiki.sh
   filelog-stderr: worklogs/tcywiki.log
   filelog-stdout: worklogs/tcywiki.log
   schedule: "08 15 * * *"
