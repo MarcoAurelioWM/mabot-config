@@ -41,7 +41,7 @@
   command: ./config/catredir-meta.sh
   filelog-stderr: worklogs/cr-meta.log
   filelog-stdout: worklogs/cr-meta.log
-  schedule: "30 03 * * *"
+  schedule: "30 03 01 * *"
   emails: onfailure
 - name: redirectbot
   image: python3.9
