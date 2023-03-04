@@ -36,6 +36,13 @@
   filelog-stdout: worklogs/cr-eswiki.log
   schedule: "30 5 1,15 * *"
   emails: onfailure
+- name: cr-meta
+  image: python3.9
+  command: ./config/catredir-meta.sh
+  filelog-stderr: worklogs/cr-meta.log
+  filelog-stdout: worklogs/cr-meta.log
+  schedule: "30 03 * * *"
+  emails: onfailure
 - name: redirectbot
   image: python3.9
   command: ./config/redirects.sh
