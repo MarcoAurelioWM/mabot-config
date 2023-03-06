@@ -33,7 +33,6 @@ ${array[*]} -family:wikipedia -lang:sco
 printf '%40s\n' | tr ' ' -
 echo -e "** Wikiquotes **"
 printf '%40s\n' | tr ' ' -
-${array[*]} -family:wikiquote -lang:en
 ${array[*]} -family:wikiquote -lang:es
 ${array[*]} -family:wikiquote -lang:eu
 ${array[*]} -family:wikiquote -lang:gl
