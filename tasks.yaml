@@ -15,6 +15,13 @@
   filelog-stdout: worklogs/archivebot-wikitech.log
   schedule: "30 06 * * 5"
   emails: onfailure
+- name: arc-enwq
+  image: python3.9
+  command: ./special/arc-enwq.sh
+  filelog-stderr: worklogs/arc-enwq.log
+  filelog-stdout: worklogs/arc-enwq.log
+  schedule: "30 08 * * *"
+  emails: onfailure
 - name: delete-pwb-cache
   image: python3.9
   command: ./config/delete-pwb-cache.sh
@@ -42,13 +49,6 @@
   filelog-stderr: worklogs/cr-meta.log
   filelog-stdout: worklogs/cr-meta.log
   schedule: "30 03 1,15 * *"
-  emails: onfailure
-- name: arc-enwq
-  image: python3.9
-  command: ./special/arc-enwq.sh
-  filelog-stderr: worklogs/arc-enwq.log
-  filelog-stdout: worklogs/arc-enwq.log
-  schedule: "30 08 * * *"
   emails: onfailure
 - name: redirectbot
   image: python3.9
