@@ -6,7 +6,7 @@
   command: ./config/archivebot.sh
   filelog-stdout: worklogs/archivebot.log
   filelog-stderr: worklogs/archivebot.log
-  schedule: "15 06 * * *"
+  schedule: "30 06 * * *"
   emails: onfailure
 - name: archivebot-wikitech
   image: python3.9
@@ -34,14 +34,21 @@
   command: ./config/catredir-eswiki.sh
   filelog-stderr: worklogs/cr-eswiki.log
   filelog-stdout: worklogs/cr-eswiki.log
-  schedule: "30 5 1,15 * *"
+  schedule: "30 05 1,15 * *"
   emails: onfailure
 - name: cr-meta
   image: python3.9
   command: ./config/catredir-meta.sh
   filelog-stderr: worklogs/cr-meta.log
   filelog-stdout: worklogs/cr-meta.log
-  schedule: "30 03 01 * *"
+  schedule: "30 03 1,15 * *"
+  emails: onfailure
+- name: arc-enwq
+  image: python3.9
+  command: ./special/arc-enwq.sh
+  filelog-stderr: worklogs/arc-enwq.log
+  filelog-stdout: worklogs/arc-enwq.log
+  schedule: "30 08 * * *"
   emails: onfailure
 - name: redirectbot
   image: python3.9
@@ -55,12 +62,12 @@
   command: ./config/redirects-wikitech.sh
   filelog-stderr: worklogs/redirectbot-wikitech.log
   filelog-stdout: worklogs/redirectbot-wikitech.log
-  schedule: "15 08 1,15 * *"
+  schedule: "30 08 1,15 * *"
   emails: onfailure
 - name: tcywiki
   image: python3.9
   command: ./special/tcywiki.sh
   filelog-stderr: worklogs/tcywiki.log
   filelog-stdout: worklogs/tcywiki.log
-  schedule: "08 15 * * *"
+  schedule: "08 30 * * *"
   emails: onfailure
