@@ -69,5 +69,5 @@
   command: ./special/tcywiki.sh
   filelog-stderr: worklogs/tcywiki.log
   filelog-stdout: worklogs/tcywiki.log
-  schedule: "08 30 * * *"
+  schedule: "30 08 * * *"
   emails: onfailure
