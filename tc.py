@@ -29,7 +29,7 @@ class settings:
     lang = "metawiki"
     rootpage = "Module:Transclusion count/"
     editsumm = "Bot: Update template transclusion data"
-    debug = "yes"
+    debug = "no"
     sigfigs = 2
 
 
