@@ -10,12 +10,12 @@ printf '%60s\n' | tr ' ' -
 echo -e "Starting redirect maintenance module at $(date)."
 printf '%60s\n' | tr ' ' -
 
-# Meta-Wiki
-${command[*]} do -namespace:not:2,3 -family:meta -lang:meta -always
-${command[*]} br -namespace:not:2,3 -family:meta -lang:meta -delete -always
+# Meta-Wiki (BR only)
+${command[*]} do -namespace:not:2,3 -site:meta -always
+${command[*]} br -namespace:not:2,3 -site:meta -delete -always -sdtemplate:"{{delete|1=[[WM:CSD#M2|M2]]: Broken redirect (bot)}}"
 
 # Wikispecies
-${command[*]} do -namespace:not:2,3 -family:species -lang:species -always
+${command[*]} do -namespace:not:2,3 -site:species -always
 
 # Spanish Wikipedia
 ${command[*]} do -namespace:not:2,3 -family:wikipedia -lang:es -always
