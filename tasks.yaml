@@ -13,7 +13,7 @@
   command: ./config/archivebot-wikitech.sh
   filelog-stderr: worklogs/archivebot-wikitech.log
   filelog-stdout: worklogs/archivebot-wikitech.log
-  schedule: "30 06 * * 5"
+  schedule: "30 06 * * FRI"
   emails: onfailure
 - name: arc-enwq
   image: python3.9
@@ -70,4 +70,11 @@
   filelog-stderr: worklogs/tcywiki.log
   filelog-stdout: worklogs/tcywiki.log
   schedule: "30 08 * * *"
+  emails: onfailure
+- name: tc-meta
+  image: python3.9
+  command: ./config/tc.py
+  filelog-stderr: worklogs/tc.log
+  filelog-stdout: worklogs/tc.log
+  schedule: "15 04 * * SUN"
   emails: onfailure
