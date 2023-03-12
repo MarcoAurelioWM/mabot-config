@@ -73,7 +73,7 @@
   emails: onfailure
 - name: tc-meta
   image: python3.9
-  command: ./config/tc.py
+  command: "$HOME/pwbvenv/bin/python3 config/tc.py"
   filelog-stderr: worklogs/tc.log
   filelog-stdout: worklogs/tc.log
   schedule: "15 04 * * SUN"
