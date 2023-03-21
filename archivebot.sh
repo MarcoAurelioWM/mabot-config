@@ -27,7 +27,6 @@ echo -e "** Wikipedias **"
 printf '%40s\n' | tr ' ' -
 ${array[*]} -family:wikipedia -lang:an
 ${array[*]} -family:wikipedia -lang:ang
-${array[*]} -family:wikipedia -lang:es
 ${array[*]} -family:wikipedia -lang:eu
 ${array[*]} -family:wikipedia -lang:sco
 printf '%40s\n' | tr ' ' -
