@@ -6,21 +6,21 @@
   command: ./config/archivebot.sh
   filelog-stdout: worklogs/archivebot.log
   filelog-stderr: worklogs/archivebot.log
-  schedule: "30 06 * * *"
+  schedule: "@daily"
   emails: onfailure
 - name: archivebot-wikitech
   image: python3.11
   command: ./config/archivebot-wikitech.sh
   filelog-stderr: worklogs/archivebot-wikitech.log
   filelog-stdout: worklogs/archivebot-wikitech.log
-  schedule: "30 06 * * FRI"
+  schedule: "@weekly"
   emails: onfailure
 - name: arc-enwq
   image: python3.11
   command: ./special/arc-enwq.sh
   filelog-stderr: worklogs/arc-enwq.log
   filelog-stdout: worklogs/arc-enwq.log
-  schedule: "30 08 * * *"
+  schedule: "@daily"
   emails: onfailure
 - name: delete-pwb-cache
   image: python3.11
@@ -34,7 +34,7 @@
   command: ./config/clean-sandbox.sh
   filelog-stderr: worklogs/clean-sandbox.log
   filelog-stdout: worklogs/clean-sandbox.log
-  schedule: "1 */2 * * *"
+  schedule: "@hourly"
   emails: onfailure
 - name: cr-eswiki
   image: python3.11
@@ -55,7 +55,7 @@
   command: ./config/redirects.sh
   filelog-stderr: worklogs/redirectbot.log
   filelog-stdout: worklogs/redirectbot.log
-  schedule: "30 07 * * *"
+  schedule: "@daily"
   emails: onfailure
 - name: redirectbot-wikitech
   image: python3.11
@@ -69,12 +69,12 @@
   command: ./special/tcywiki.sh
   filelog-stderr: worklogs/tcywiki.log
   filelog-stdout: worklogs/tcywiki.log
-  schedule: "30 08 * * *"
+  schedule: "@daily"
   emails: onfailure
 - name: tc-meta
   image: python3.11
   command: "$HOME/pwbvenv/bin/python3 config/tc.py"
   filelog-stderr: worklogs/tc.log
   filelog-stdout: worklogs/tc.log
-  schedule: "15 04 * * SUN"
+  schedule: "@weekly"
   emails: onfailure
