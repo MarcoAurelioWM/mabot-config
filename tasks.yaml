@@ -78,3 +78,10 @@
   filelog-stdout: worklogs/tc.log
   schedule: "@weekly"
   emails: onfailure
+- name: logrotate
+  image: mariadb
+  command: ./logrotate.sh
+  filelog-stderr: worklogs/logrotate.log
+  filelog-stdout: worklogs/logrotate.log
+  schedule: "@weekly"
+  emails: onfailure
