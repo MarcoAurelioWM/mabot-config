@@ -43,6 +43,12 @@
   filelog-stdout: worklogs/cr-eswiki.log
   schedule: "30 05 1,15 * *"
   emails: onfailure
+- name: cr-eswikibooks
+  image: python3.11
+  command: ./config/catredir-eswikibooks.sh
+  filelog-stderr: worklogs/cr-eswikibooks.log
+  filelog-stdout: worklogs/cr-eswikibooks.log
+  emails: onfailure
 - name: cr-meta
   image: python3.11
   command: ./config/catredir-meta.sh
