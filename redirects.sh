@@ -28,10 +28,6 @@ ${command[*]} br -namespace:not:2,3 -family:wikibooks -lang:es -delete -sdtempla
 ${command[*]} do -namespace:not:2,3 -family:wikiquote -lang:es -always
 ${command[*]} br -namespace:not:2,3 -family:wikiquote -lang:es -delete -sdtemplate:"{{destruir|1=Bot: redirección rota|bot=sí}}" -always
 
-# Spanish Wikinews
-${command[*]} do -namespace:not:2,3 -family:wikinews -lang:es -always
-${command[*]} br -namespace:not:2,3 -family:wikinews -lang:es -delete -sdtemplate:"{{destruir|1=Bot: redirección rota}}" -always
-
 # Spanish Wikisource
 ${command[*]} do -namespace:not:2,3 -family:wikisource -lang:es -always
 ${command[*]} br -namespace:not:2,3 -family:wikisource -lang:es -delete -sdtemplate:"{{destruir|1=Bot: redirección rota}}" -always
