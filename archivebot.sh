@@ -19,10 +19,6 @@ ${array[*]} -family:wikibooks -lang:es
 ${array[*]} -family:wikibooks -lang:eu
 ${array[*]} -family:wikibooks -lang:gl
 printf '%40s\n' | tr ' ' -
-echo -e "** Wikinews **"
-printf '%40s\n' | tr ' ' -
-${array[*]} -family:wikinews -lang:es
-printf '%40s\n' | tr ' ' -
 echo -e "** Wikipedias **"
 printf '%40s\n' | tr ' ' -
 ${array[*]} -family:wikipedia -lang:an
